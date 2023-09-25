@@ -18,6 +18,12 @@
                 </div>
             </div>
 
+            <div>
+                <x-primary-button class="ml-3">
+                    <a href='{{ route('ticket.create')}}'> CREATE A ticket</a>
+                </x-primary-button>
+            </div>
+
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ml-6">
                 <x-dropdown align="right" width="48">
